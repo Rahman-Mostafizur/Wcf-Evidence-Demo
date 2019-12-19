@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="37aae9bc-5059-4ddb-ad20-7023fe7a6dce" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4560/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="fa9fbcef-e68d-4824-9479-55ab7430e300" SourceId="1" SourceUrl="http://localhost:4560/?xsd=xsd0" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="4899d5d7-49c3-4b05-adfd-8275a6194ddd" SourceId="1" SourceUrl="http://localhost:4560/?xsd=xsd1" />
+    <MetadataFile FileName="MovieRepository.wsdl" MetadataType="Wsdl" ID="9008ca37-0522-4e95-bf74-b26ea79ef118" SourceId="1" SourceUrl="http://localhost:4560/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="4758196c-4114-4c4f-bc53-c13e11d2066d" SourceId="1" SourceUrl="http://localhost:4560/?disco" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="f5f0118e-7e4b-4a4a-9901-4d60cbcabdfa" SourceId="1" SourceUrl="http://localhost:4560/?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
